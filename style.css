@@ -71,6 +71,14 @@ img{
     align-items: center;
 }
 
+.services-div{
+    border: white 3px solid;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 2em;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
 
