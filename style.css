@@ -48,11 +48,13 @@ nav{
 
 .home-img{
     width: 50%;
+    /* background-color: red; */
     margin: 0 auto;
 }
 
 img{
     height: 40vh;
+    width: 100%;
 }
 
 /* media queries */
