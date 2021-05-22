@@ -14,7 +14,7 @@ body{
 }
 
 .glitch{
-    font-size: 6rem;
+    font-size: 4.5rem;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -22,11 +22,12 @@ body{
     0.05em 0 0 rgba(255,0,0,.75),
     -0.025em -0.05em 0 rgba(0,255,0,.75),
     0.025em 0.05em 0 rgba(0,0,255,.75);
+    line-height: 2em;
 }
 
 nav{
     height: 10vh;
-    background-color: #5b78c7;
+    background-color: #222;
 }
 
 .nav-links{
@@ -43,6 +44,15 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 16px;
+}
+
+.home-img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+img{
+    height: 40vh;
 }
 
 /* media queries */
@@ -70,7 +80,7 @@ nav{
 
     .nav-links{
         position: fixed;
-        background-color: #5b78c7;
+        background-color: #222;
         height: 100vh;
         width: 100%;
         flex-direction: column;
