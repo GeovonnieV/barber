@@ -79,6 +79,16 @@ img{
     text-align: center;
     font-family: 'Euphoria Script', cursive;
     font-size: 2em;
+   
+}
+
+#services-list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.service-list-items{
+    padding: 5%;
 }
 
 /* media queries */
